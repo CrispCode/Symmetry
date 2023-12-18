@@ -1,0 +1,25 @@
+{
+  "name": "@crispcode/symmetry",
+  "version": "0.0.1",
+  "description": "Symmetry game",
+  "author": "Crisp Code ( contact@crispcode.ro )",
+  "access": "public",
+  "engines": {
+    "node": ">=20.9.0",
+    "npm": ">=10.1.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CrispCode/symmetry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CrispCode/symmetry/issues"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  },
+  "scripts": {
+    "start": ""
+  }
+}
