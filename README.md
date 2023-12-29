@@ -13,3 +13,10 @@ Symmetry game
         - &#x2610; Frame should should have an error screen
     - &#x2610; Game
         - &#x2610; Three.JS canvas container
+
+
+- Level (boot)
+    - Services ( navigation, combat, etc ) - Expose functions like getClosestEnemy()
+    - Environment - Entities and Blocks
+    - Combatants - Core loop
+    - UI

@@ -1,0 +1,8 @@
+{
+    "MOVE_FORWARD": "w",
+    "MOVE_BACKWARD": "s",
+    "MOVE_LEFT": "a",
+    "MOVE_RIGHT": "d",
+    "TURN_LEFT": "q",
+    "TURN_RIGHT": "e"
+}
