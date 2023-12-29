@@ -1,11 +1,11 @@
 'use strict'
 
-import { Block } from './../block.js'
-
 import {
   TextureLoader,
   MeshStandardMaterial
 } from 'three'
+
+import { Block } from './../block.js'
 
 export class BlockDefault extends Block {
   static get material () {

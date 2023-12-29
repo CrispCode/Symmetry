@@ -1,10 +1,10 @@
 'use strict'
 
-import { Block } from './../block.js'
-
 import {
   MeshStandardMaterial
 } from 'three'
+
+import { Block } from './../block.js'
 
 export class BlockDirt extends Block {
   static get material () {

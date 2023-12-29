@@ -5,9 +5,9 @@ const chunkSize = 10
 const content = {
   'ambient_light': 'rgb(255,255,255)',
   'chunk_size': chunkSize,
-  'camera_position': {
+  'player_position': {
     x: 0,
-    y: 50,
+    y: 10,
     z: 0
   },
   'blocks': []
