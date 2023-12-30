@@ -5,7 +5,7 @@ import {
   MeshStandardMaterial
 } from 'three'
 
-import { Block } from './../block.js'
+import { Block } from './../engine/block.js'
 
 export class BlockDefault extends Block {
   static get material () {

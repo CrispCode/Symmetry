@@ -4,7 +4,7 @@ import {
   MeshStandardMaterial
 } from 'three'
 
-import { Entity } from './../entity.js'
+import { Entity } from './../engine/entity.js'
 
 export class EntityDefault extends Entity {
   static get material () {

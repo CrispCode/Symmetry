@@ -7,7 +7,7 @@ import {
   Vector3
 } from 'three'
 
-import * as BLOCKS from './blocks/index.js'
+import * as BLOCKS from './../blocks/index.js'
 
 export class Chunk extends Group {
   #size = {

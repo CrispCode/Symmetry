@@ -1,8 +1,34 @@
 {
-    "MOVE_FORWARD": "w",
-    "MOVE_BACKWARD": "s",
-    "MOVE_LEFT": "a",
-    "MOVE_RIGHT": "d",
-    "TURN_LEFT": "q",
-    "TURN_RIGHT": "e"
+    "SELECT": {
+        "key": 0,
+        "type": "mouse"
+    },
+    "MOVE": {
+        "key": 2,
+        "type": "mouse"
+    },
+    "MOVE_FORWARD": {
+        "key": "w",
+        "type": "keyboard"
+    },
+    "MOVE_BACKWARD": {
+        "key": "s",
+        "type": "keyboard"
+    },
+    "MOVE_LEFT": {
+        "key": "a",
+        "type": "keyboard"
+    },
+    "MOVE_RIGHT": {
+        "key": "d",
+        "type": "keyboard"
+    },
+    "TURN_LEFT": {
+        "key": "q",
+        "type": "keyboard"
+    },
+    "TURN_RIGHT": {
+        "key": "e",
+        "type": "keyboard"
+    }
 }

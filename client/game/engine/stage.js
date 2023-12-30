@@ -25,8 +25,7 @@ export class Stage {
     // Perform resize updates
     this.#renderer.setSize( width, height, false )
     if ( this.#act ) {
-      this.#act.camera.aspect = width / height
-      this.#act.camera.updateProjectionMatrix()
+      this.#act.resize( this.#size.width, this.#size.height )
     }
   }
 
@@ -82,8 +81,7 @@ export class Stage {
   }
 
   play ( act ) {
-    act.camera.aspect = this.#size.width / this.#size.height
-    act.camera.updateProjectionMatrix()
+    act.resize( this.#size.width, this.#size.height )
     this.#act = act
   }
 }
